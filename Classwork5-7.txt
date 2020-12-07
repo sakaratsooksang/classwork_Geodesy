@@ -1,0 +1,10 @@
+อ้างอิงจากการใช้terminal (macos) windows ต้องลองไปปรับดูว่าเป็นexeรึเปล่ามั้ง
+cw 5-7
+a i) GeodSolve -i -e 6371000 0.0 --input-string {from_lat from_lon to_lat to_lon}
+a ii)GeodSolve -i --input-string {from_lat from_lon to_lat to_lon}
+#### Result >>> initial_Forward_Az : final_Forward_Az : s12
+b i) RhumbSolve -i -e 6371000 0.0 --input-string {from_lat from_lon to_lat to_lon}
+b ii)GeodSolve -i --input-string {from_lat from_lon to_lat to_lon}
+#### Result >>> Forward_Az (คงที่ทั้งเส้น) : s12 : เชี่ยไรไม่รู้อันสุดท้ายโคตรเยอะแต่ไม่ได้ใช้
+เสร็จแล้วก็เอาค่าพวกนี้ไปใส่ excel แล้วก็จัดรูปแบบแสดงผล
+/จบ.
