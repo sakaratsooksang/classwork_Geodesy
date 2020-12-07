@@ -1,4 +1,4 @@
-
+# ต้องมี Geographiclibก่อน
 from geographiclib.geodesic import Geodesic
 from math import sin,cos,atan,radians,degrees,sqrt,pi
 geod = Geodesic.WGS84
