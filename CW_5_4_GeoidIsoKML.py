@@ -1,4 +1,4 @@
-#
+# เปลี่ยนพิกัดก่อน ข้อนี้ควรทำในคอมเพราะต้อง write file
 #
 # CW_5_4_GeoidIsoKML : plot isoline of spectified geoid model
 #
